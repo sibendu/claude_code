@@ -76,3 +76,9 @@ The Twist: Every time a monster levels up, ask it to generate a 'Special Move' n
 Start by creating the core engine in a file called game.py
 
 
+# SAFETY: Running gitleaks
+
+docker pull zricethezav/gitleaks:latest
+
+docker run -v  /mnt/c/.../claude_code:/path   zricethezav/gitleaks:latest  dir -f csv  -r /path/out.csv  /path
+

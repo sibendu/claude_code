@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python3 -m ensurepip:*)",
+      "Bash(python -m venv:*)",
+      "Bash(..venvScriptsactivate)",
+      "Bash(.venvScriptsactivate)"
+    ]
+  }
+}

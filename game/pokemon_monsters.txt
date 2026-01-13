@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Charizard",
+        "hp": 200,
+        "level": 3,
+        "type": "Fire",
+        "special_move": null
+    },
+    {
+        "name": "Venosaur",
+        "hp": 200,
+        "level": 3,
+        "type": "Grass",
+        "special_move": null
+    }
+]

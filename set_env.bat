@@ -2,7 +2,7 @@ REM Enable Microsoft Foundry integration
 set CLAUDE_CODE_USE_FOUNDRY=1
 
 REM Azure resource name (replace {resource} with your resource name)
-REM ANTHROPIC_FOUNDRY_RESOURCE=dce-ai-foundry-project-1
+REM ANTHROPIC_FOUNDRY_RESOURCE=<AI-Foundry-Resource>
 REM Or provide the full base URL:
 set ANTHROPIC_FOUNDRY_BASE_URL=https://<AI-Foundry-Resource>.openai.azure.com/anthropic
 

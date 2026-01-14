@@ -1,8 +1,29 @@
-# Setup
+# Running with Anthropic Models
 
-## Install Claude Code 
+## MS AI Foundry 
 
-Standard steps
+Set values in set_env.bat 
+
+Set value for BASE_URL: 
+set ANTHROPIC_FOUNDRY_BASE_URL=https://<AI-Foundry-Resource>.openai.azure.com/anthropic
+
+Use either method below:
+
+1. Entra ID authentication
+
+Login: az login
+Verify: az account get-access-toke
+
+2. Direct authentication with API Key
+
+set ANTHROPIC_FOUNDRY_API_KEY=<AI Foundry API Key>
+
+Now we can run ->  claude
+
+
+# Running with a LLM Bridge
+
+Tried with Claude Code Proxy - https://github.com/fuergaosi233/claude-code-proxy.git
 
 ## Set up Claude Code Proxy 
 
